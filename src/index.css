@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;700&display=swap');
+
+* {
+  font-family: 'Roboto Mono', 'Courier New', Courier, monospace;
+}
+
+html {
+  background-color: black;
+}
+
+pre {
+  font-family: 'Roboto Mono', 'Courier New', Courier, monospace;
+  line-height: 1.2;
+  overflow-x: auto;
+  background-color: #0a0a0a;
+  color: white;
+  /* padding: 1.5rem; */
+  border-radius: 8px;
+}
+
+.chart-container {
+  width: 100%;
+}
